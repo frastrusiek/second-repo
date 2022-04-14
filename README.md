@@ -16,8 +16,8 @@ Robimy to przy pomocy dwóch poleceń: remote add origin oraz push. Pierwsze inf
 używamy go w następujący sposób: "git remote add origin [skopiowany wcześniej adres repozytorium]", w miejsce adresu
 wstawiamy nasz adres repozytorium, dokładnie ten sam, którgo używaliśmy w poleceniu clone (w naszym przypadku było to 
 https://github.com/frastrusiek/second-repo.git). Gdy poinformowaliśmy GIT-a gdzie chcemy zapisać nasze pliki, pora na push.
-Polecenie push działa w następujący sposób: wpisujemy "git push -u origin master" i zatwierdzamy, pojawi nam się okienko,
-w które należy wpisać nasz wcześniej nadany Nick oraz hasło, po wprowadzeniu danych powinien pojawić się komunikat o
-powiedzeniu się procesu, w ten sposób zapisaliśmy zmiany w naszym lokalnym repozytorium do naszego zdalnego repozytorium,
+Polecenie push działa w następujący sposób: wpisujemy "git push -u origin master" (master to nazwa brancha któego chcemy 
+wpushować do zdalengo repozytorium, możemy tam wpisać nazwę dowolnego brancha) i zatwierdzamy, pojawi nam się okienko,
+w które należy wpisać nasz wcześniej nadany Nick oraz hasło, po wprowadzeniu danych powinien pojawić się komunikat
+opowiedzeniu się procesu, w ten sposób zapisaliśmy zmiany w naszym lokalnym repozytorium do naszego zdalnego repozytorium,
 teraz możemy znaleźć nasze pliki na przykład na GITHubie na naszym koncie, pod powyższym skopiowanym adresem.
-
